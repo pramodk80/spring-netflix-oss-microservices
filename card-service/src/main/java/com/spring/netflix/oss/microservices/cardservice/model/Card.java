@@ -1,5 +1,7 @@
 package com.spring.netflix.oss.microservices.cardservice.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class Card {
     private Long id;
